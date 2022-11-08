@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-/* navigation styling */
+/* navbar styling */
 
 .navbar {
   display: flex;
@@ -30,7 +30,81 @@ body {
 .nav-container li a {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
   padding: 1rem;
   display: block;
-  font-family: raleway;
+}
+
+#logo {
+  width: 130px;
+  height: 130px;
+}
+
+/* Booking section styling */
+
+.booking-container {
+  border: solid 5px green;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book-content {
+  border: solid 5px blue;
+  margin: 50px;
+  width: 600px;
+  height: 400px;
+}
+
+.blue-box {
+  width: 250px;
+  height: 20px;
+  background-color: #1d3c94;
+}
+
+.book-function {
+  border: solid 5px red;
+  margin: 50px;
+  width: 600px;
+  height: 400px;
+}
+
+/* find out more section styling */
+
+.find-out-container {
+  border: solid 5px green;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.find-out-item {
+  width: 250px;
+  height: 350px;
+  margin: 10px;
+  background-color: #1d3c94;
+}
+
+/* christmas section styling */
+
+.christmas-content-container {
+  display: flex;
+  justify-content: center;
+  border: solid 5px green;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#image {
+  width: 50%;
+  height: 100%;
+}
+
+.christmas-content {
+  width: 50%;
+  height: 100%;
+  background-color: #1d3c94;
 }
