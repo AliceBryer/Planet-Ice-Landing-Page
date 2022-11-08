@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* navigation styling */
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1d3c94;
+  color: white;
+}
+
+.nav-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-container li {
+  list-style: none;
+  margin-left: 90px;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+  font-family: raleway;
+}
