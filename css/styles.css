@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  position: relative;
 }
 
 .nav-container li {
@@ -33,6 +34,7 @@ body {
   color: white;
   font-size: 1.5rem;
   padding: 1rem;
+  font-weight: 500;
   display: block;
   font-family: "Raleway", sans-serif;
 }
@@ -40,6 +42,8 @@ body {
 #logo {
   width: 130px;
   height: 130px;
+  position: absolute;
+  bottom: -65px;
 }
 
 /* Booking section styling */
@@ -53,10 +57,11 @@ body {
 
 .book-content {
   margin: 50px;
-  width: 400px;
+  width: 450px;
   height: 350px;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
+  font-size: 1.2rem;
 }
 
 .blue-box {
@@ -82,8 +87,9 @@ body {
   background-color: #fbd103;
   color: #1d3c94;
   font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding: 20px;
 }
 
 .selection-container {
@@ -192,7 +198,7 @@ body {
 .christmas-content-container {
   display: flex;
   justify-content: center;
-  border: solid 5px green;
+  align-items: center;
   height: 500px;
   width: 100%;
   margin-bottom: 5px;
@@ -207,4 +213,42 @@ body {
   width: 50%;
   height: 100%;
   background-color: #1d3c94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.christmas-inner-div {
+  border: 7px solid #fbd103;
+  margin: 10px;
+  height: 90%;
+  width: 95%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.christmas-inner-div h1 {
+  font-size: 2.5rem;
+  margin: 20px;
+}
+
+.christmas-inner-div p {
+  margin: 20px;
+  font-size: 1.7rem;
+}
+
+.book-today-div {
+  background-color: #fbd103;
+  color: #1d3c94;
+  width: 85%;
+  margin: 20px;
+  padding: 3px;
+}
+
+.book-today-div h2 {
+  font-weight: 800;
+  margin-left: 20px;
 }
