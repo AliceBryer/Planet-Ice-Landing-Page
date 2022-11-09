@@ -52,11 +52,11 @@ body {
 }
 
 .book-content {
-  border: solid 5px blue;
   margin: 50px;
-  width: 600px;
-  height: 400px;
+  width: 400px;
+  height: 350px;
   font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
 .blue-box {
@@ -68,10 +68,12 @@ body {
 /* booking function styling */
 
 .book-function {
-  border: solid 5px red;
+  background-color: #1d3c94;
   margin: 50px;
   width: 600px;
-  height: 400px;
+  height: 350px;
+  justify-content: center;
+  align-content: center;
 }
 
 .welcome {
@@ -84,6 +86,71 @@ body {
   font-size: 2rem;
 }
 
+.selection-container {
+  height: 70%;
+  background-color: #1d3c94;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.select-date {
+  width: 95%;
+  height: 20%;
+  background-color: white;
+  margin: 5px;
+  color: #1d3c94;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.select-time {
+  width: 95%;
+  height: 20%;
+  background-color: white;
+  margin: 5px;
+  color: #1d3c94;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.quick-book {
+  width: 95%;
+  height: 20%;
+  background-color: #fbd103;
+  margin: 5px;
+  color: #1d3c94;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.select-date p {
+  margin-left: 10px;
+}
+
+.select-time p {
+  margin-left: 10px;
+}
+
+.quick-book p {
+  margin-left: 10px;
+}
+
+#view-more-dates {
+  color: white;
+  font-family: "Raleway", san-serif;
+}
 /* find out more section styling */
 
 .find-out-container {
