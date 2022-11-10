@@ -9,3 +9,5 @@ TO DO:
 - [] move the 'view more dates'
 - [] make responsive
 - [] change link tags for cdn's
+- [] Check all fonts etc & overall checks
+- [] Deploy page
