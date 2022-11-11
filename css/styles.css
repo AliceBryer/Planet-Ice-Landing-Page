@@ -10,6 +10,7 @@ body {
 
 .navbar {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   background-color: #1d3c94;
@@ -58,6 +59,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  display: none;
 }
 
 .span {
@@ -74,11 +76,12 @@ body {
 .booking-container {
   padding: 20px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .book-content {
-  margin-top: 130px;
+  margin-top: 160px;
   width: 450px;
   height: 250px;
   font-family: "Raleway", sans-serif;
@@ -96,7 +99,7 @@ body {
 
 .book-function {
   background-color: #1d3c94;
-  margin-top: 130px;
+  margin-top: 150px;
   width: 500px;
   height: 250px;
   justify-content: center;
@@ -112,6 +115,13 @@ body {
   font-weight: 900;
   font-size: 1.5rem;
   padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#angle-down-icon {
+  color: #1d3c94;
+  margin-right: 1rem;
 }
 
 .selection-container {
@@ -135,6 +145,7 @@ body {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .select-time {
@@ -148,6 +159,7 @@ body {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .quick-book {
@@ -161,6 +173,7 @@ body {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .select-date p {
@@ -213,6 +226,11 @@ body {
   align-items: center;
   position: absolute;
   bottom: 0;
+}
+
+.find-out-item:hover {
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 
 /* christmas section styling */
@@ -279,3 +297,18 @@ body {
 }
 
 /* MEDIA QUERIES */
+
+/* phone screens */
+@media screen and (max-width: 576px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+}
+
+/* tablet screens */
+
+/* large screens  */
