@@ -92,8 +92,8 @@ body {
 }
 
 .blue-box {
-  width: 250px;
-  height: 20px;
+  width: 50%;
+  height: 8%;
   background-color: #1d3c94;
 }
 
@@ -150,6 +150,10 @@ body {
   justify-content: space-between;
 }
 
+.select-date:hover {
+  cursor: pointer;
+}
+
 .select-time {
   width: 95%;
   height: 20%;
@@ -162,6 +166,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.select-time:hover {
+  cursor: pointer;
 }
 
 .quick-book {
@@ -176,6 +183,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.quick-book:hover {
+  cursor: pointer;
 }
 
 .select-date p {
@@ -198,6 +208,10 @@ body {
   margin-left: 0.2rem;
 }
 
+.view-more-dates:hover {
+  cursor: pointer;
+}
+
 /* find out more section styling */
 
 .find-out-container {
@@ -218,6 +232,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .find-out-text {
@@ -317,13 +332,42 @@ body {
 /* phone & tablet screens */
 @media screen and (max-width: 768px) {
   /* NAV MEDIA QUERIES */
+
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
   .nav-links-container {
-    display: none;
+    flex-direction: column;
+  }
+
+  #logo {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* HAMBURGER MEDIA QUERIES */
+  .hamburger {
+    width: 9%;
+    display: flex;
   }
 
   /* BOOK FUNCTION MEDIA QUERIES */
   .book-function {
     margin-top: 10px;
+  }
+
+  .book-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blue-box {
+    width: 90%;
+    height: 5%;
   }
 
   /* FIND OUT MORE MEDIA QUERUES */
@@ -353,7 +397,7 @@ body {
   }
 
   .christmas-content-text {
-    border-top: solid 30px #fbd103;
+    border-top: solid 25px #fbd103;
     width: 80%;
   }
 
