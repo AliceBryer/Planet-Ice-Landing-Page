@@ -251,12 +251,20 @@ body {
 }
 
 #image {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
-.christmas-content {
-  width: 50%;
+.christmas-content-image {
+  width: 100%;
+  height: 100%;
+  background-color: #1d3c94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.christmas-content-text {
+  width: 100%;
   height: 100%;
   background-color: #1d3c94;
   display: flex;
@@ -306,17 +314,25 @@ body {
 
 /* phone & tablet screens */
 @media screen and (max-width: 768px) {
+  /* NAV MEDIA QUERIES */
   .nav-links-container {
     display: none;
   }
 
+  /* BOOK FUNCTION MEDIA QUERIES */
   .book-function {
     margin-top: 10px;
   }
 
+  /* FIND OUT MORE MEDIA QUERUES */
+
+  .find-out-container {
+    margin-bottom: 60px;
+  }
+
   .find-out-item {
-    width: 130px;
-    height: 200px;
+    width: 200px;
+    height: 230px;
   }
 
   .find-out-text {
@@ -326,42 +342,56 @@ body {
     font-size: 0.6rem;
     width: 90%;
     margin-bottom: 6px;
+    font-size: 1.1rem;
   }
-  /* christmas media queries */
+  /* CHRISTMAS SECTION MEDIA QUERUES */
 
   .christmas-inner-div {
-    border: 0px;
+    border: none;
+  }
+
+  .christmas-content-text {
+    border-top: solid 30px #fbd103;
+    width: 80%;
   }
 
   .christmas-content-container {
     flex-direction: column;
   }
 
+  .christmas-content-image {
+    width: 80%;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  /* .christmas-content-text {
+   
+  } */
+
   .christmas-inner-div h1 {
-    font-size: 1rem;
+    font-size: 2.5rem;
     margin: 10px;
+    text-align: center;
   }
 
   .christmas-inner-div p {
     margin: 10px;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
   .book-today-div {
     width: 90%;
-    height: 15%;
+    height: 20%;
     margin: 10px;
     padding: 2px;
     display: flex;
-    align-items: center;
+    justify-content: center;
   }
 
   .book-today-div h2 {
     font-weight: 800;
-    margin-left: 20px;
+    text-align: center;
   }
 }
-
-/* tablet screens */
-
-/* large screens  */
